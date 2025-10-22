@@ -1,9 +1,4 @@
-
-# Form nhập thông tin gửi mail
 http://localhost:8080/mail/form
-
-# Đăng nhập
-http://localhost:8080/auth/login
 
 # Truy cập trang cần đăng nhập (sẽ bị chặn nếu chưa đăng nhập)
 http://localhost:8080/account/edit-profile
@@ -15,4 +10,4 @@ http://localhost:8080/admin/users
 http://localhost:8080/admin/products
 
 # Trang admin không bị chặn
-http://localhost:8080/admin/index
+http://localhost:8080/admin/home/index

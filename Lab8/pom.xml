@@ -9,7 +9,7 @@
     <groupId>com.example</groupId>
     <artifactId>lab8</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>lab8</name>
     <properties>
         <java.version>21</java.version>
@@ -56,6 +56,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-mail</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-core</artifactId>
+            <version>11.0.7</version>
         </dependency>
     </dependencies>
     <build>

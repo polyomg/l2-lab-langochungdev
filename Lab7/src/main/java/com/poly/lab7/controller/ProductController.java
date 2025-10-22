@@ -12,7 +12,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
-
 @Controller
 public class ProductController {
 
@@ -22,7 +21,6 @@ public class ProductController {
     @Autowired
     SessionService session;
 
-    // Bài 1: Tìm theo khoảng giá
     @RequestMapping("/product/search")
     public String search(Model model,
                          @RequestParam("min") Optional<Double> min,
@@ -34,7 +32,6 @@ public class ProductController {
         return "product/search";
     }
 
-    // Bài 2: Tìm theo tên + phân trang
     @RequestMapping("/product/search-and-page")
     public String searchAndPage(Model model,
                                 @RequestParam("keywords") Optional<String> kw,

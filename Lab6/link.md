@@ -1,4 +1,3 @@
-# CATEGORY CRUD
 http://localhost:8080/category/index         # Trang quản lý loại hàng
 
 # PRODUCT SẮP XẾP
